@@ -12,6 +12,7 @@ body{
     color:white;
 }
 h1{
+    font-size: 1.4em;
     font-weight: 700;
     font-family: 'Georgia', Times, Times New Roman, serif;
    color: #4aaaa5;
@@ -24,7 +25,13 @@ a{
     font-style: 1.4em;
     color:#777777;
     margin-top: 15px;
-
+    opacity: 0.4;
+    transition: opacity 2s linear;
+}
+a:hover{
+    color: #000000;
+    opacity: 1;
+   
 }
 
 }
@@ -35,6 +42,7 @@ a{
     border-top: 3px solid #4aaaa5;
 }
 .footer{
+    
     color: #fff;
     background-color: #666666;
 }
