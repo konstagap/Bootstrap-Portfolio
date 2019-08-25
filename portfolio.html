@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
     <title>Hello, world!</title>
 </head>
 
 <body>
+    <!-- header nav bar white -->
     <div class="white bborder">
         <div class="container">
             <div class=" d-flex justify-content-between row">
@@ -23,7 +23,6 @@
                         Kostas Agapov
                     </h1>
                 </div>
-
                 <ul class="nav">
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">About</a>
@@ -34,46 +33,53 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
-
     </div>
     </div>
-
     <br>
     <!-- text goes here -->
-
     <div class="container">
         <section>
             <div class="row">
-                <div class=" border  white col-md-6">
+                <div class=" border  white col-md-8">
                     <div class="row m-4 ">
                         <div class=" clearfix  col-md-12">
                             <h1>Portfoilo</h1>
                             <hr>
+                            <!--  one row, two coloms -->
                             <div class="row">
-                                <div class="  col-md-6">
-                                    <img class="m-3 img-fluid" src="images/technics-q-c-640-480-1.jpg" alt="guywithipad">
+                                <div class=" position-relative p-0 m-2 col-md-5">
+                                    <img class=" img-fluid" src="images/technics-q-c-640-480-1.jpg" alt="guywithipad">
+                                    <h1 class="position-absolute  picline p-2 mb-4 text-center fixed-bottom"> Word game
+                                    </h1>
                                 </div>
-                                <div class=" col-md-6">
-                                    <img class="m-3 img-fluid" src="images/technics-q-c-640-480-2.jpg" alt="tech pic">
+                                <div class="position-relative p-0 m-2 col-md-5">
+                                    <img class=" img-fluid" src="images/technics-q-c-640-480-2.jpg" alt="tech pic">
+                                    <h1 class="position-absolute  picline p-2 mb-4 text-center fixed-bottom"> RPG Game
+                                    </h1>
                                 </div>
                             </div>
-                            
+                            <!-- one row, two coloms -->
                             <div class="row">
-                                <div class=" col-md-6">
-                                    <img class="m-3 img-fluid" src="images/technics-q-c-640-480-5.jpg" alt="guywithipad">
+                                <div class="position-relative p-0 m-2 col-md-5">
+                                    <img class=" img-fluid" src="images/technics-q-c-640-480-5.jpg" alt="earphones">
+                                    <h1 class="position-absolute picline  white p-2 mb-4 text-center fixed-bottom">Trivia Game
+                                    </h1>
                                 </div>
-                                <div class="  col-md-6">
-                                    <img class=" m-3 img-fluid" src="images/technics-q-c-640-480-7.jpg" alt="tech pic">
+                                <div class="position-relative p-0 m-2 col-md-5">
+                                    <img class=" img-fluid" src="images/technics-q-c-640-480-7.jpg" alt="tech pic">
+                                    <h1 class="position-absolute picline  white p-2 mb-4 text-center fixed-bottom">Info Widget
+                                    </h1>
                                 </div>
                             </div>
-                          
+                            <!-- Last row -->
                             <div class="row">
-                                <div class=" col-md-6">
-                                    <img class="m-3 img-fluid" src="images/technics-q-c-640-480-9.jpg" alt="guywithipad">
+                                <div class="position-relative p-0 m-2 col-md-5">
+                                    <img class=" img-fluid" src="images/technics-q-c-640-480-9.jpg" alt="tvscreen">
+                                    <h1 class="position-absolute picline  white p-2 mb-4 text-center fixed-bottom">Rock Paper
+                                        Scissors</h1>
                                 </div>
                             </div>
                         </div>
@@ -81,14 +87,11 @@
                 </div>
             </div>
         </section>
-
-
-
     </div>
     <br>
     <!-- this is footeeer -->
     <footer>
-        <div class="footer mt-1 p-2 bordertop">
+        <div class="footer fixed-bottom mt-1 p-2 bordertop">
             <div class="container footer  ">
                 <div class=" text-center p-0 card-body">
                     &copy;2019
