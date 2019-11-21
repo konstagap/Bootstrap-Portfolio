@@ -1,3 +1,2 @@
 # Bootstrap-Portfolio
-homework with bootstrap
-https://konstagap.github.io/Bootstrap-Portfolio/
+This folder is for learning bootstrap grid and many more features.
